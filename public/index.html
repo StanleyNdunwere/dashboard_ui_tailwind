@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Dashboard</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-blue-default font-lato">
+  <div class="bg-blue-default grid gap-2 grid-cols-body max-w-screen-2xl mx-auto px-2 py-2">
+    <div class="text-white mx-1 my-2">
+      <div class="grid grid-rows-header h-full fixed top-0">
+        <img src="./assets/images/logo.svg" class="mx-auto mt-5 w-8 h-8 transform rotate-45" alt="logo of the website">
+        <div>
+          <div class="p-4 bg-white rounded-2xl w-12 h-12 mx-auto my-2 transform translate-x-8 shadow-around">
+            <img src="./assets/images/home.svg" class="w-5 h-5 mx-auto" alt="home">
+          </div>
+          <div class="p-4 bg-transparent rounded-2xl w-12 h-12 mx-auto my-2 ">
+            <img src="./assets/images/pie.svg" alt="pie" class="w-5 h-5 mx-auto">
+          </div>
+          <div class="p-4 bg-transparent rounded-2xl w-12 h-12 mx-auto my-2">
+            <img src="./assets/images/chatting.svg" alt="contact" class="w-5 h-5 mx-auto">
+          </div>
+          <div class="p-4 bg-transparent rounded-2xl w-12 h-12 mx-auto my-2">
+            <img src="./assets/images/video.svg" alt="graphics" class="w-5 h-5 mx-auto">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" h-auto min-h-full grid grid-cols-1 rounded-5xl bg-white p-10">
+      <!-- the biggest grid -->
+      <div class="w-full">
+        <div>
+          <div class="w-full grid grid-flow-row grid-cols-searchRow ">
+            <div class="h-12 px-2 py-1">
+              <div class="bg-blue-search rounded-xl h-full w-full flex items-center">
+                <img src="./assets/images/search.svg" alt="search" class="inline w-9 h-9 py-2 px-3 align-middle"></img>
+                <input type="text" placeholder="Search" class="outline-none bg-transparent w-full pr-3 text-gray-800">
+              </div>
+            </div>
+            <div class="h-12 flex items-center text-gray-500 font-nunito font-bold text-md">
+              <span class="ml-12">Feedback</span>
+              <span class="ml-12">Contacts</span>
+              <span class="ml-12 ">Help</span>
+            </div>
+            <div class="grid grid-cols-autoTwoColumns">
+              <div class="h-12 mx-auto flex items-center">
+                <img src="./assets/images/notification.svg" alt="notifications" class="w-5 h-5">
+              </div>
+              <div class="h-12 mx-auto flex items-center"">
+                <img src=" ./assets/images/man.svg" class="w-9 h-9" alt="profile photo">
+              </div>
+            </div>
+          </div>
+          <div class="h-auto w-full grid gap-7 grid-flow-row grid-cols-twoUnevenColumns mt-8">
+            <div>
+              <div class="grid grid-cols-3 gap-8">
+                <div
+                  class="p-7 bg-white rounded-2xl shadow-xl shadow-aroundY grid gap-6 grid-cols-twoUnevenColumnsReversed items-center">
+                  <div>
+                    <img src="./assets/images/graph3.svg" alt="graph 3" class="h-12">
+                  </div>
+                  <div>
+                    <p class="text-xs font-bold text-gray-400 uppercase p-1">Visitors</p>
+                    <p class="text-3xl font-bold font-nunito text-gray-700 uppercase p-1">10,230</p>
+                  </div>
+                </div>
+                <div
+                  class="p-7 bg-white rounded-2xl shadow-xl shadow-aroundY grid gap-6 grid-cols-twoUnevenColumnsReversed items-center">
+                  <div>
+                    <img src="./assets/images/graph2.svg" alt="graph 2" class="h-12">
+                  </div>
+                  <div>
+                    <p class="text-xs font-bold text-gray-400 uppercase p-1">Customers</p>
+                    <p class="text-3xl font-bold font-nunito text-gray-700 uppercase p-1">4,608</p>
+                  </div>
+                </div>
+                <div
+                  class="p-7 bg-orange-default rounded-2xl shadow-xl shadow-aroundY grid gap-6 grid-cols-twoUnevenColumnsReversed items-center">
+                  <div>
+                    <img src="./assets/images/graph4.svg" alt="graph 4" class="h-12">
+                  </div>
+                  <div>
+                    <p class="text-xs font-bold text-gray-100 uppercase p-1">Orders</p>
+                    <p class="text-3xl font-bold font-nunito text-white uppercase p-1">2,980</p>
+                  </div>
+                </div>
+              </div>
+              <div class="h-auto w-full bg-white rounded-2xl shadow-xl shadow-aroundY p-6 mt-8">
+                <p class="text-gray-500 text-lg font-bold font-nunito py-2">Statistics</p>
+                <img src="./assets/images/graph6.jpg" alt="graph" class="object-contain">
+              </div>
+              <div class="grid gap-8 grid-flow-row grid-cols-2 w-full mt-8">
+                <div class="shadow-aroundY rounded-xl flex flex-col justify-between overflow-hidden"
+                  style="height: 300px;">
+                  <p class="px-5 py-8 text-lg font-bold text-gray-500 font-nunito">Spent time</p>
+                  <img src="./assets/images/graph.jpg" alt="graph" class="p-6">
+                </div>
+                <div class="shadow-aroundY rounded-xl p-6">
+                  <div class="flex items-center gap-4">
+                    <img src="./assets/images/lady.svg" alt="profile picture" class="w-12 h-12 inline align-middle">
+                    <div>
+                      <p class="text-gray-600 text-sm font-bold ">Natasha Banks</p>
+                      <p class="text-gray-400 text-xs ">Business Trainer</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="font-nunito text-gray-600 py-4 text-lg font-bold">This is the new design that i tried to
+                      replicate with tailwind</p>
+                  </div>
+                  <div>
+                    <span class="mr-4 text-xs text-gray-500 font-bold">
+                      <img src="./assets/images/button.svg" alt="play button"
+                        class="inline w-8 object-contain align-middle px-1 py-1" />Video
+                    </span>
+                    <span class="mr-4 text-xs text-gray-500 font-bold">
+                      <img src="./assets/images/clock.svg" alt="play button"
+                        class=" inline w-8 object-contain align-middle px-1 py-1" />15 mins
+                    </span>
+                    <span class="mr-4 text-xs text-gray-500 font-bold">
+                      <img src="./assets/images/star.svg" alt="play button"
+                        class=" inline  w-8 object-contain align-middle px-1 py-1" />12 likes
+                    </span>
+                  </div>
+                  <div class="flex items-center justify-between my-6 text-sm">
+                    <p class="font-extrabold text-gray-500">
+                      5 days ago
+                    </p>
+                    <div class="rounded-4xl py-3 text-blue-100 px-5 bg-blue-default shadow-aroundY">
+                      <span>Connect</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full  bg-blue-search rounded-2xl shadow-aroundY">
+              <div class="flex flex-row items-center justify-end ">
+                <img src="./assets/images/edit.svg" alt="edit" class="w-10 h-10 m-4">
+              </div>
+              <div
+                class="outer my-3 border-blue-default border-2 border-opacity-30 bg-white mx-auto flex flex-row items-center justify-center rounded-full shadow-aroundY">
+                <div
+                  class="inner mx-auto rounded-full shadow-aroundY bg-white flex flex-row items-center justify-center">
+                  <p class="text-5xl font-bold text-gray-600 m-9">38%</p>
+                </div>
+              </div>
+              <p class="font-bold text-gray-600 text-xl mx-8 my-3 font-nunito">My Card</p>
+              <div class="my-2 mx-8 rounded-4xl oveflow-hidden">
+                <img src="./assets/images/atm-photo.jpg" alt="credit card" class="rounded-3xl">
+              </div>
+              <div class="mx-8 my-4 mt-8 flex flex-row items-center justify-between">
+                <p class="text-gray-500 text-xl font-bold">Transactions</p>
+                <img src="./assets/images/add.svg" alt="add new transaction" class="w-8 h-8">
+              </div>
+              <div class="flex flex-row items-center justify-between mx-8 my-6">
+                <div class="flex flex-row items-center">
+                  <div class="bg-white p-4 rounded-xl">
+                    <img src="./assets/images/taxi.svg" class="w-7 h-7 shadow-around" alt="taxi">
+                  </div>
+                  <div class="px-4 flex flex-col justify-center">
+                    <p class="text-lg text-gray-600 font-nunito font-bold">Taxi Fare</p>
+                    <p class="text-sm text-gray-500 font-lato font-bold">06:21 PM</p>
+                  </div>
+                </div>
+                <div class="font-bold text-lg font-nunito text-gray-600">
+                  <p>-100.90</p>
+                </div>
+              </div>
+
+              <div class="flex flex-row items-center justify-between mx-8 my-6">
+                <div class="flex flex-row items-center">
+                  <div class="bg-white p-4 rounded-xl">
+                    <img src="./assets/images/cart.svg" class="w-7 h-7 shadow-around" alt="taxi">
+                  </div>
+                  <div class="px-4 flex flex-col justify-center">
+                    <p class="text-lg text-gray-600 font-nunito font-bold">Shopping</p>
+                    <p class="text-sm text-gray-500 font-lato font-bold">07:48 PM</p>
+                  </div>
+                </div>
+                <div class="font-bold text-lg font-nunito text-gray-600">
+                  <p>-495.90</p>
+                </div>
+              </div>
+
+              <div class="flex flex-row items-center justify-between mx-8 my-6">
+                <div class="flex flex-row items-center">
+                  <div class="bg-white p-4 rounded-xl">
+                    <img src="./assets/images/netflix.svg" class="w-7 h-7 shadow-around" alt="taxi">
+                  </div>
+                  <div class="px-4 flex flex-col justify-center">
+                    <p class="text-lg text-gray-600 font-nunito font-bold">Netflix</p>
+                    <p class="text-sm text-gray-500 font-lato font-bold">08:21 PM</p>
+                  </div>
+                </div>
+                <div class="font-bold text-lg font-nunito text-gray-600">
+                  <p>-14.90</p>
+                </div>
+              </div>
+
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+</body>
+
+</html>
